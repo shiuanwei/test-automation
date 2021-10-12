@@ -1,0 +1,21 @@
+/usr/bin/python3 /Users/shiuanweichong/PycharmProjects/pythonProject/test-automation/thai_e_commerce.py
+1. Launch https://www.powerbuy.co.th/th Webpage - Pass
+2. Search TV Content - Pass
+3. Filter - Pass
+4. Selecting 264098 - Pass
+5. Add 264098 to Cart - Pass
+6. Navigate on Breadcrumb - Pass
+7. Filter - Pass
+8. Selecting 258784 - Pass
+9. Add 258784 to Cart - Pass
+10. Go to Cart - Pass
+
+
+---CART VALIDATION---
+Total 2 items in cart list
+Cart List Count Correct
+Cart Button Count correct
+Cart Header count correct
+Test Run - End
+
+Process finished with exit code 0
