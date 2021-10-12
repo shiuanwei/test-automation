@@ -66,11 +66,10 @@ print("10. Go to Cart - Pass")
 
 
 #Validate Cart Count
-time.sleep(3)
+time.sleep(10) #intermittent slowness on cart page
 minicartcount = driver.find_element_by_xpath("//*[@id='btn-openMiniCart']/div/span").text
 headercartcount = driver.find_element_by_xpath("/html/body/div[2]/div/div[2]/div[3]/div[2]/div[2]/div/h1/span[1]/span").text    #xpath of header cart count
 cartlist = driver.find_element_by_xpath("/html/body/div[2]/div/div[2]/div[3]/div[2]/div[3]/div/div[1]/div[2]").text     #xpath of cart list
-time.sleep(3)
 cartlistcount=str(cartlist.count("SKU:"))
 
 print("\n\n---CART VALIDATION---")
